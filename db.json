@@ -7,8 +7,20 @@
     "menu": [
       {
         "name": "americano",
-        "price": 5000,
+        "price": 1000,
         "information": "good coffie",
+        "imagePath": "/resource/img/americano.png"
+      },
+      {
+        "name": "measil",
+        "price": 1000,
+        "information": "sweat tea",
+        "imagePath": "/resource/img/americano.png"
+      },
+      {
+        "name": "ddanlba",
+        "price": 2000,
+        "information": "딸기바나나",
         "imagePath": "/resource/img/americano.png"
       }
     ]
