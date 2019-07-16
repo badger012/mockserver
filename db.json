@@ -1,3 +1,16 @@
 {
-  "id": "badger"
+  "members": {
+    "id": "badger"
+  },
+  "menus": {
+    "status": false,
+    "menu": [
+      {
+        "name": "americano",
+        "price": 5000,
+        "information": "good coffie",
+        "imagePath": "/resource/img/americano.png"
+      }
+    ]
+  }
 }
