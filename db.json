@@ -2,38 +2,41 @@
   "members": {
     "memberId": "badger"
   },
-  "order": [
-    {
-      "name": ["americano, tea"],
-      "paymentType": "point",
-      "paid": false,
-      "made": false,
-      "pickup": false,
-      "createdDate": "2019-07-18",
-      "amount": "2000",
-      "Member_id": "badger"
-    },
-    {
-      "name": ["americano, tea"],
-      "paymentType": "point",
-      "paid": false,
-      "made": false,
-      "pickup": false,
-      "createdDate": "2019-07-18",
-      "amount": "2000",
-      "Member_id": "badger"
-    },
-    {
-      "name": ["americano, tea"],
-      "paymentType": "point",
-      "paid": false,
-      "made": true,
-      "pickup": false,
-      "createdDate": "2019-07-18",
-      "amount": "2000",
-      "Member_id": "badger"
-    }
-  ],
+  "orders": {
+    "status": false,
+    "order": [
+      {
+        "name": ["americano, tea"],
+        "paymentType": "point",
+        "paid": false,
+        "made": false,
+        "pickup": false,
+        "createdDate": "2019-07-18",
+        "amount": "2000",
+        "Member_id": "badger"
+      },
+      {
+        "name": ["americano, tea"],
+        "paymentType": "point",
+        "paid": false,
+        "made": false,
+        "pickup": false,
+        "createdDate": "2019-07-18",
+        "amount": "2000",
+        "Member_id": "badger"
+      },
+      {
+        "name": ["americano, tea"],
+        "paymentType": "point",
+        "paid": false,
+        "made": true,
+        "pickup": false,
+        "createdDate": "2019-07-18",
+        "amount": "2000",
+        "Member_id": "badger"
+      }
+    ]
+  },
   "menus": {
     "status": false,
     "menu": [
