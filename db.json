@@ -6,6 +6,7 @@
     "status": false,
     "order": [
       {
+        "order_id": 1,
         "name": ["americano, tea"],
         "paymentType": "point",
         "paid": false,
@@ -16,6 +17,7 @@
         "Member_id": "badger"
       },
       {
+        "order_id": 2,
         "name": ["americano, tea"],
         "paymentType": "point",
         "paid": false,
@@ -26,6 +28,7 @@
         "Member_id": "badger"
       },
       {
+        "order_id": 3,
         "name": ["americano, tea"],
         "paymentType": "point",
         "paid": false,
