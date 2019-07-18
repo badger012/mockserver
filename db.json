@@ -7,7 +7,7 @@
     "order": [
       {
         "order_id": 1,
-        "name": ["americano, tea"],
+        "menus": ["americano", "tea"],
         "paymentType": "point",
         "paid": false,
         "made": false,
@@ -18,7 +18,7 @@
       },
       {
         "order_id": 2,
-        "name": ["americano, tea"],
+        "menus": ["americano", "tea"],
         "paymentType": "point",
         "paid": false,
         "made": false,
@@ -29,7 +29,7 @@
       },
       {
         "order_id": 3,
-        "name": ["americano, tea"],
+        "menus": ["americano", "tea"],
         "paymentType": "point",
         "paid": false,
         "made": true,
