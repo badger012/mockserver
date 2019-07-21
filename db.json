@@ -37,6 +37,28 @@
         "createdDate": "2019-07-18",
         "amount": "2000",
         "member_id": "badger"
+      },
+      {
+        "order_id": 4,
+        "menus": ["ICE_아메리카노"],
+        "paymentType": "point",
+        "paid": true,
+        "made": true,
+        "pickup": false,
+        "createdDate": "2019-07-18",
+        "amount": "2000",
+        "member_id": "badger"
+      },
+      {
+        "order_id": 5,
+        "menus": ["ICE_아메리카노", "매실차"],
+        "paymentType": "point",
+        "paid": true,
+        "made": true,
+        "pickup": true,
+        "createdDate": "2019-07-18",
+        "amount": "2000",
+        "member_id": "badger"
       }
     ]
   },
