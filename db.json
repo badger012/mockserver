@@ -14,7 +14,7 @@
         "pickup": false,
         "createdDate": "2019-07-18",
         "amount": "2000",
-        "Member_id": "badger"
+        "member_id": "badger"
       },
       {
         "order_id": 2,
@@ -25,7 +25,7 @@
         "pickup": false,
         "createdDate": "2019-07-18",
         "amount": "2000",
-        "Member_id": "badger"
+        "member_id": "badger"
       },
       {
         "order_id": 3,
@@ -36,7 +36,7 @@
         "pickup": false,
         "createdDate": "2019-07-18",
         "amount": "2000",
-        "Member_id": "badger"
+        "member_id": "badger"
       }
     ]
   },
