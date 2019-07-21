@@ -2,9 +2,7 @@
   "members": {
     "memberId": "badger"
   },
-  "orders": {
-    "status": false,
-    "order": [
+  "orders": [
       {
         "order_id": 1,
         "menus": ["americano", "tea"],
@@ -60,8 +58,7 @@
         "amount": "2000",
         "member_id": "badger"
       }
-    ]
-  },
+    ],
   "menus": [
       {
         "id": 1,
