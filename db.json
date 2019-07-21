@@ -62,9 +62,8 @@
       }
     ]
   },
-  "menus": {
-    "status": false,
-    "data": [
+  "menus": 
+   [
       {
         "id": 1,
         "name": "americano",
