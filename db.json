@@ -1,18 +1,72 @@
 {
   "members": {
-    "content":[
-      {"id": 1, "memberId": "onion1", "password": "123456789a", "memberRole": "NORMAL", "point": 2134},
-      {"id": 2, "memberId": "onion2", "password": "123456789a", "memberRole": "NORMAL", "point": 23},
-      {"id": 3, "memberId": "onion3", "password": "123456789a", "memberRole": "NORMAL", "point": 44},
-      {"id": 4, "memberId": "onion4", "password": "123456789a", "memberRole": "NORMAL", "point": 777},
-      {"id": 5, "memberId": "onion5", "password": "123456789a", "memberRole": "NORMAL", "point": 729},
-      {"id": 6, "memberId": "onion6", "password": "123456789a", "memberRole": "NORMAL", "point": 50000},
-      {"id": 7, "memberId": "onion7", "password": "123456789a", "memberRole": "NORMAL", "point": 700},
-      {"id": 8, "memberId": "onion8", "password": "123456789a", "memberRole": "NORMAL", "point": 200},
-      {"id": 9, "memberId": "onion9", "password": "123456789a", "memberRole": "NORMAL", "point": 10}
+    "content": [
+      {
+        "id": 1,
+        "memberId": "onion1",
+        "password": "123456789a",
+        "memberRole": "NORMAL",
+        "point": 2134
+      },
+      {
+        "id": 2,
+        "memberId": "onion2",
+        "password": "123456789a",
+        "memberRole": "NORMAL",
+        "point": 23
+      },
+      {
+        "id": 3,
+        "memberId": "onion3",
+        "password": "123456789a",
+        "memberRole": "NORMAL",
+        "point": 44
+      },
+      {
+        "id": 4,
+        "memberId": "onion4",
+        "password": "123456789a",
+        "memberRole": "NORMAL",
+        "point": 777
+      },
+      {
+        "id": 5,
+        "memberId": "onion5",
+        "password": "123456789a",
+        "memberRole": "NORMAL",
+        "point": 729
+      },
+      {
+        "id": 6,
+        "memberId": "onion6",
+        "password": "123456789a",
+        "memberRole": "NORMAL",
+        "point": 50000
+      },
+      {
+        "id": 7,
+        "memberId": "onion7",
+        "password": "123456789a",
+        "memberRole": "NORMAL",
+        "point": 700
+      },
+      {
+        "id": 8,
+        "memberId": "onion8",
+        "password": "123456789a",
+        "memberRole": "NORMAL",
+        "point": 200
+      },
+      {
+        "id": 9,
+        "memberId": "onion9",
+        "password": "123456789a",
+        "memberRole": "NORMAL",
+        "point": 10
+      }
     ],
-    "pageable":{
-      "sort":{
+    "pageable": {
+      "sort": {
         "sorted": false,
         "unsorted": true,
         "empty": true
@@ -30,219 +84,218 @@
     "number": 1,
     "first": false,
     "numberOfElements": 3,
-    "sort":{
+    "sort": {
       "sorted": false,
       "unsorted": true,
       "empty": true
     },
     "empty": false
   },
-  
-  "orders": [
-      {
-        "order_id": 1,
-        "menus": ["americano", "tea"],
-        "paymentType": "point",
-        "paid": false,
-        "made": false,
-        "pickup": false,
-        "createdDate": "2019-07-18",
-        "amount": "2000",
-        "member_id": "badger"
-      },
-      {
-        "order_id": 2,
-        "menus": ["americano", "tea"],
-        "paymentType": "point",
-        "paid": false,
-        "made": false,
-        "pickup": false,
-        "createdDate": "2019-07-18",
-        "amount": "2000",
-        "member_id": "badger"
-      },
-      {
-        "order_id": 3,
-        "menus": ["americano", "tea"],
-        "paymentType": "point",
-        "paid": false,
-        "made": true,
-        "pickup": false,
-        "createdDate": "2019-07-18",
-        "amount": "2000",
-        "member_id": "badger"
-      },
-      {
-        "order_id": 4,
-        "menus": ["ICE_아메리카노"],
-        "paymentType": "point",
-        "paid": true,
-        "made": true,
-        "pickup": false,
-        "createdDate": "2019-07-18",
-        "amount": "2000",
-        "member_id": "badger"
-      },
-      {
-        "order_id": 5,
-        "menus": ["ICE_아메리카노", "매실차"],
-        "paymentType": "point",
-        "paid": true,
-        "made": true,
-        "pickup": true,
-        "createdDate": "2019-07-18",
-        "amount": "2000",
-        "member_id": "badger"
-      }
-    ],
-  "menus": [
-      {
-        "id": 1,
-        "name": "americano",
-        "price": 1000,
-        "information": "good coffie",
-        "imageFile": "http://image.istarbucks.co.kr/upload/store/skuimg/2017/03/[9200000000479]_20170328134443491.jpg"
-      },
-      {
-        "id": 2,
-        "name": "measil",
-        "price": 1000,
-        "information": "sweat tea",
-        "imageFile": "http://image.istarbucks.co.kr/upload/store/skuimg/2017/03/[9200000000479]_20170328134443491.jpg"
-      },
-      {
-        "id": 3,
-        "name": "ddanlba",
-        "price": 2000,
-        "information": "딸기바나나",
-        "imageFile": "http://image.istarbucks.co.kr/upload/store/skuimg/2017/03/[9200000000479]_20170328134443491.jpg"
-      },
-      {
-        "id": 4,
-        "name": "americano",
-        "price": 1000,
-        "information": "good coffie",
-        "imageFile": "http://image.istarbucks.co.kr/upload/store/skuimg/2017/03/[9200000000479]_20170328134443491.jpg"
-      },
-      {
-        "id": 5,
-        "name": "measil",
-        "price": 1000,
-        "information": "sweat tea",
-        "imageFile": "http://image.istarbucks.co.kr/upload/store/skuimg/2017/03/[9200000000479]_20170328134443491.jpg"
-      },
-      {
-        "id": 6,
-        "name": "ddanlba",
-        "price": 2000,
-        "information": "딸기바나나",
-        "imageFile": "http://image.istarbucks.co.kr/upload/store/skuimg/2017/03/[9200000000479]_20170328134443491.jpg"
-      },
-      {
-        "id": 7,
-        "name": "americano",
-        "price": 1000,
-        "information": "good coffie",
-        "imageFile": "http://image.istarbucks.co.kr/upload/store/skuimg/2017/03/[9200000000479]_20170328134443491.jpg"
-      },
-      {
-        "id": 8,
-        "name": "measil",
-        "price": 1000,
-        "information": "sweat tea",
-        "imageFile": "http://image.istarbucks.co.kr/upload/store/skuimg/2017/03/[9200000000479]_20170328134443491.jpg"
-      },
-      {
-        "id": 9,
-        "name": "ddanlba",
-        "price": 2000,
-        "information": "딸기바나나",
-        "imageFile": "http://image.istarbucks.co.kr/upload/store/skuimg/2017/03/[9200000000479]_20170328134443491.jpg"
-      },
-      {
-        "id": 10,
-        "name": "americano",
-        "price": 1000,
-        "information": "good coffie",
-        "imageFile": "http://image.istarbucks.co.kr/upload/store/skuimg/2017/03/[9200000000479]_20170328134443491.jpg"
-      },
-      {
-        "id": 11,
-        "name": "measil",
-        "price": 1000,
-        "information": "sweat tea",
-        "imageFile": "http://image.istarbucks.co.kr/upload/store/skuimg/2017/03/[9200000000479]_20170328134443491.jpg"
-      },
-      {
-        "id": 12,
-        "name": "ddanlba",
-        "price": 2000,
-        "information": "딸기바나나",
-        "imageFile": "http://image.istarbucks.co.kr/upload/store/skuimg/2017/03/[9200000000479]_20170328134443491.jpg"
-      },
-      {
-        "id": 13,
-        "name": "americano",
-        "price": 1000,
-        "information": "good coffie",
-        "imageFile": "http://image.istarbucks.co.kr/upload/store/skuimg/2017/03/[9200000000479]_20170328134443491.jpg"
-      },
-      {
-        "id": 14,
-        "name": "measil",
-        "price": 1000,
-        "information": "sweat tea",
-        "imageFile": "http://image.istarbucks.co.kr/upload/store/skuimg/2017/03/[9200000000479]_20170328134443491.jpg"
-      },
-      {
-        "id": 15,
-        "name": "ddanlba",
-        "price": 2000,
-        "information": "딸기바나나",
-        "imageFile": "http://image.istarbucks.co.kr/upload/store/skuimg/2017/03/[9200000000479]_20170328134443491.jpg"
-      },
-      {
-        "id": 16,
-        "name": "americano",
-        "price": 1000,
-        "information": "good coffie",
-        "imageFile": "http://image.istarbucks.co.kr/upload/store/skuimg/2017/03/[9200000000479]_20170328134443491.jpg"
-      },
-      {
-        "id": 17,
-        "name": "measil",
-        "price": 1000,
-        "information": "sweat tea",
-        "imageFile": "http://image.istarbucks.co.kr/upload/store/skuimg/2017/03/[9200000000479]_20170328134443491.jpg"
-      },
-      {
-        "id": 18,
-        "name": "ddanlba",
-        "price": 2000,
-        "information": "딸기바나나",
-        "imageFile": "http://image.istarbucks.co.kr/upload/store/skuimg/2017/03/[9200000000479]_20170328134443491.jpg"
-      },
-      {
-        "id": 19,
-        "name": "americano",
-        "price": 1000,
-        "information": "good coffie",
-        "imageFile": "http://image.istarbucks.co.kr/upload/store/skuimg/2017/03/[9200000000479]_20170328134443491.jpg"
-      },
-      {
-        "id": 20,
-        "name": "measil",
-        "price": 1000,
-        "information": "sweat tea",
-        "imageFile": "http://image.istarbucks.co.kr/upload/store/skuimg/2017/03/[9200000000479]_20170328134443491.jpg"
-      },
-      {
-        "id": 21,
-        "name": "ddanlba",
-        "price": 2000,
-        "information": "딸기바나나",
-        "imageFile": "http://image.istarbucks.co.kr/upload/store/skuimg/2017/03/[9200000000479]_20170328134443491.jpg"
-      }
-    ]
-}
 
+  "orders": [
+    {
+      "id": 1,
+      "menus": ["americano", "tea"],
+      "paymentType": "point",
+      "paid": false,
+      "made": false,
+      "pickup": false,
+      "createdDate": "2019-07-18",
+      "amount": "2000",
+      "buyerId": "badger"
+    },
+    {
+      "id": 2,
+      "menus": ["americano", "tea"],
+      "paymentType": "point",
+      "paid": false,
+      "made": false,
+      "pickup": false,
+      "createdDate": "2019-07-18",
+      "amount": "2000",
+      "buyerId": "badger"
+    },
+    {
+      "id": 3,
+      "menus": ["americano", "tea"],
+      "paymentType": "point",
+      "paid": false,
+      "made": true,
+      "pickup": false,
+      "createdDate": "2019-07-18",
+      "amount": "2000",
+      "buyerId": "badger"
+    },
+    {
+      "id": 4,
+      "menus": ["ICE_아메리카노"],
+      "paymentType": "point",
+      "paid": true,
+      "made": true,
+      "pickup": false,
+      "createdDate": "2019-07-18",
+      "amount": "2000",
+      "buyerId": "badger"
+    },
+    {
+      "id": 5,
+      "menus": ["ICE_아메리카노", "매실차"],
+      "paymentType": "point",
+      "paid": true,
+      "made": true,
+      "pickup": true,
+      "createdDate": "2019-07-18",
+      "amount": "2000",
+      "buyerId": "badger"
+    }
+  ],
+  "menus": [
+    {
+      "id": 1,
+      "name": "americano",
+      "price": 1000,
+      "information": "good coffie",
+      "imageFile": "http://image.istarbucks.co.kr/upload/store/skuimg/2017/03/[9200000000479]_20170328134443491.jpg"
+    },
+    {
+      "id": 2,
+      "name": "measil",
+      "price": 1000,
+      "information": "sweat tea",
+      "imageFile": "http://image.istarbucks.co.kr/upload/store/skuimg/2017/03/[9200000000479]_20170328134443491.jpg"
+    },
+    {
+      "id": 3,
+      "name": "ddanlba",
+      "price": 2000,
+      "information": "딸기바나나",
+      "imageFile": "http://image.istarbucks.co.kr/upload/store/skuimg/2017/03/[9200000000479]_20170328134443491.jpg"
+    },
+    {
+      "id": 4,
+      "name": "americano",
+      "price": 1000,
+      "information": "good coffie",
+      "imageFile": "http://image.istarbucks.co.kr/upload/store/skuimg/2017/03/[9200000000479]_20170328134443491.jpg"
+    },
+    {
+      "id": 5,
+      "name": "measil",
+      "price": 1000,
+      "information": "sweat tea",
+      "imageFile": "http://image.istarbucks.co.kr/upload/store/skuimg/2017/03/[9200000000479]_20170328134443491.jpg"
+    },
+    {
+      "id": 6,
+      "name": "ddanlba",
+      "price": 2000,
+      "information": "딸기바나나",
+      "imageFile": "http://image.istarbucks.co.kr/upload/store/skuimg/2017/03/[9200000000479]_20170328134443491.jpg"
+    },
+    {
+      "id": 7,
+      "name": "americano",
+      "price": 1000,
+      "information": "good coffie",
+      "imageFile": "http://image.istarbucks.co.kr/upload/store/skuimg/2017/03/[9200000000479]_20170328134443491.jpg"
+    },
+    {
+      "id": 8,
+      "name": "measil",
+      "price": 1000,
+      "information": "sweat tea",
+      "imageFile": "http://image.istarbucks.co.kr/upload/store/skuimg/2017/03/[9200000000479]_20170328134443491.jpg"
+    },
+    {
+      "id": 9,
+      "name": "ddanlba",
+      "price": 2000,
+      "information": "딸기바나나",
+      "imageFile": "http://image.istarbucks.co.kr/upload/store/skuimg/2017/03/[9200000000479]_20170328134443491.jpg"
+    },
+    {
+      "id": 10,
+      "name": "americano",
+      "price": 1000,
+      "information": "good coffie",
+      "imageFile": "http://image.istarbucks.co.kr/upload/store/skuimg/2017/03/[9200000000479]_20170328134443491.jpg"
+    },
+    {
+      "id": 11,
+      "name": "measil",
+      "price": 1000,
+      "information": "sweat tea",
+      "imageFile": "http://image.istarbucks.co.kr/upload/store/skuimg/2017/03/[9200000000479]_20170328134443491.jpg"
+    },
+    {
+      "id": 12,
+      "name": "ddanlba",
+      "price": 2000,
+      "information": "딸기바나나",
+      "imageFile": "http://image.istarbucks.co.kr/upload/store/skuimg/2017/03/[9200000000479]_20170328134443491.jpg"
+    },
+    {
+      "id": 13,
+      "name": "americano",
+      "price": 1000,
+      "information": "good coffie",
+      "imageFile": "http://image.istarbucks.co.kr/upload/store/skuimg/2017/03/[9200000000479]_20170328134443491.jpg"
+    },
+    {
+      "id": 14,
+      "name": "measil",
+      "price": 1000,
+      "information": "sweat tea",
+      "imageFile": "http://image.istarbucks.co.kr/upload/store/skuimg/2017/03/[9200000000479]_20170328134443491.jpg"
+    },
+    {
+      "id": 15,
+      "name": "ddanlba",
+      "price": 2000,
+      "information": "딸기바나나",
+      "imageFile": "http://image.istarbucks.co.kr/upload/store/skuimg/2017/03/[9200000000479]_20170328134443491.jpg"
+    },
+    {
+      "id": 16,
+      "name": "americano",
+      "price": 1000,
+      "information": "good coffie",
+      "imageFile": "http://image.istarbucks.co.kr/upload/store/skuimg/2017/03/[9200000000479]_20170328134443491.jpg"
+    },
+    {
+      "id": 17,
+      "name": "measil",
+      "price": 1000,
+      "information": "sweat tea",
+      "imageFile": "http://image.istarbucks.co.kr/upload/store/skuimg/2017/03/[9200000000479]_20170328134443491.jpg"
+    },
+    {
+      "id": 18,
+      "name": "ddanlba",
+      "price": 2000,
+      "information": "딸기바나나",
+      "imageFile": "http://image.istarbucks.co.kr/upload/store/skuimg/2017/03/[9200000000479]_20170328134443491.jpg"
+    },
+    {
+      "id": 19,
+      "name": "americano",
+      "price": 1000,
+      "information": "good coffie",
+      "imageFile": "http://image.istarbucks.co.kr/upload/store/skuimg/2017/03/[9200000000479]_20170328134443491.jpg"
+    },
+    {
+      "id": 20,
+      "name": "measil",
+      "price": 1000,
+      "information": "sweat tea",
+      "imageFile": "http://image.istarbucks.co.kr/upload/store/skuimg/2017/03/[9200000000479]_20170328134443491.jpg"
+    },
+    {
+      "id": 21,
+      "name": "ddanlba",
+      "price": 2000,
+      "information": "딸기바나나",
+      "imageFile": "http://image.istarbucks.co.kr/upload/store/skuimg/2017/03/[9200000000479]_20170328134443491.jpg"
+    }
+  ]
+}
